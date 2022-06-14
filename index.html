@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <!-- link font Awsome cdn -->
+    <script src="https://kit.fontawesome.com/16bc92834b.js" crossorigin="anonymous"></script>
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="images/todo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <h1 class="card-title">Todo App</h1>
+            <div class="card-body">
+                <form class="todo-form">
+                    <input type="text" placeholder="Enter todo message here" id="inputTodo" required>
+                    <button class="btn" id="addTodoButton" type="submit">Add Todo</button>
+                </form>
+
+                <p id="message"></p>
+                <ul id="lists"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
